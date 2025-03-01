@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"97aaad223af7664d","type":"group","x":-680,"y":-360,"width":1360,"height":680,"color":"#112264","label":"NeoSMP Integration Suite"},
+		{"id":"ec09e04034c24504","type":"group","x":170,"y":-280,"width":510,"height":405,"label":"Discord"},
+		{"id":"bf82ee7d251144c1","type":"group","x":-680,"y":-280,"width":480,"height":400,"label":"Minecraft"},
+		{"id":"3d7913416bd48419","type":"text","text":"### Plugin\n","x":-560,"y":-155,"width":280,"height":210},
+		{"id":"6ede7a5f9dfd32d3","type":"text","text":"Data","x":-340,"y":10,"width":120,"height":90,"color":"3"},
+		{"id":"a12f961107fc6d31","type":"text","text":"End","x":-325,"y":-76,"width":90,"height":52,"color":"#3081c0"},
+		{"id":"726603cf52b8edc0","type":"file","file":"-Notes/03 - Projects/NeoSMP/Integration Suite/Features.md","x":800,"y":-76,"width":626,"height":430},
+		{"id":"033a9ff04e6e2aec","type":"text","text":"Start","x":255,"y":-76,"width":90,"height":52,"color":"#3081c0"},
+		{"id":"53ebc11f4bffc85c","type":"text","text":"### Bot","x":300,"y":-160,"width":300,"height":215},
+		{"id":"a6b0a1721631f00c","type":"text","text":"Data","x":540,"y":15,"width":120,"height":90,"color":"3"},
+		{"id":"8eafdab2ae0466e3","type":"text","text":"SQL","x":240,"y":10,"width":120,"height":90,"color":"6"},
+		{"id":"9d628682e6fec319","type":"file","file":"-Notes/03 - Projects/NeoSMP/server/Discord.md","x":100,"y":800,"width":400,"height":400},
+		{"id":"f8e0a7d6a4771ef8","type":"file","file":"-Notes/03 - Projects/NeoSMP/server/MC Server.md","x":-540,"y":800,"width":400,"height":400},
+		{"id":"d6b901dc12d1ec03","type":"text","text":"# Notes","x":-450,"y":640,"width":250,"height":60,"color":"#3ca0d3"}
+	],
+	"edges":[
+		{"id":"eaba9a272239b859","fromNode":"6ede7a5f9dfd32d3","fromSide":"right","toNode":"8eafdab2ae0466e3","toSide":"left","color":"5"},
+		{"id":"58934d69350115af","fromNode":"a12f961107fc6d31","fromSide":"right","toNode":"033a9ff04e6e2aec","toSide":"left","color":"5"},
+		{"id":"1b13fcf9737c7b05","fromNode":"033a9ff04e6e2aec","fromSide":"left","toNode":"a12f961107fc6d31","toSide":"right","color":"5","label":"Websocket"},
+		{"id":"96cdb0377e7e3955","fromNode":"d6b901dc12d1ec03","fromSide":"bottom","toNode":"f8e0a7d6a4771ef8","toSide":"top","color":"5"},
+		{"id":"fb6d7931eb36a484","fromNode":"d6b901dc12d1ec03","fromSide":"bottom","toNode":"9d628682e6fec319","toSide":"top","color":"5"}
+	]
+}
