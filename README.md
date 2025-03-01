@@ -1,5 +1,5 @@
 # Notes
-Notes for learning code, concepts, and college classes
+Concepts, college notes, learning code, and hobbyist learning
 
 
 #### 01 - Learning
