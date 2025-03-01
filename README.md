@@ -1,7 +1,6 @@
 # Notes
 Notes for learning code, concepts, and college classes
 
---- 
 
 #### 01 - Learning
 --- 
