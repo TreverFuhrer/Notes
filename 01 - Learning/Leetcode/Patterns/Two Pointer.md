@@ -1,13 +1,14 @@
-
+---
+tags: 
+Hub: "[[Patterns]]"
+---
 ### Description
 ---
 - This pattern is done by creation two variables that act as pointers. One pointer will point to the start and the second pointer will point to the end of a iterable data structure. The each pointer will traverse toward each other till they meet.
 
 ### Example Code
 --- 
-Leetcode problem:
-- [345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)
-
+[345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/)
 ```python
 class Solution:
 def reverseVowels(self, s: str) -> str:
