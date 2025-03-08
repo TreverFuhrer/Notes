@@ -21,15 +21,20 @@ Hub: "[[Patterns]]"
 class Solution:
 	def increasingTriplet(self, nums: List[int]) -> bool:
 		i, j = inf, inf
+		
 		for num in nums:
-
-		# Whats greedy about this is
+		# Whats greedy about this is Its finding
+		# Two most minimum values (local optimals)
 			if num <= i:
 				i = num
 			elif num <= j:
 				j = num
+		# Then the first value thats greater
+		# Than both means there is a Triplet
+		# And it returns True
 			else:
 				return True
 
+		# No greater value found
 		return False
 ```
